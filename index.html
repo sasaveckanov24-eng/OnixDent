@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Оникс Dent | Стоматологическая клиника премиум-класса</title>
+  <meta name="description" content="Премиальная стоматология полного цикла Оникс Dent (First Dental Group). Эстетическая реставрация, виниры, имплантация и микроскопное лечение без боли и страха.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Оникс Dent | First Dental Group — Стоматология премиум-класса">
+  <meta property="og:description" content="Безупречная эстетика и лечение зубов без стресса. Цифровая диагностика, немецкая микрооптика 24х и протокол антистресс.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="logo.svg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Google Fonts: Cormorant Garamond (Serif) & Manrope (Sans) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Manrope:wght@400;500;600;700&display=swap">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="brand" aria-label="Оникс Dent — на главную">
+        <svg class="brand__emblem" viewBox="0 0 120 120" aria-hidden="true">
+          <defs>
+            <linearGradient id="headerGold" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#F7E2C0"/>
+              <stop offset="35%" stop-color="#D1B386"/>
+              <stop offset="70%" stop-color="#F5DEBC"/>
+              <stop offset="100%" stop-color="#9C7B4F"/>
+            </linearGradient>
+          </defs>
+          <g transform="translate(60, 56) scale(0.24)">
+            <g transform="translate(-250, -255)">
+              <path d="M 250 115 C 220 95, 175 90, 145 125 C 115 160, 120 220, 150 270 C 170 305, 185 350, 195 400 C 200 410, 208 405, 210 390 C 215 330, 210 295, 235 265 C 245 255, 248 245, 248 235 C 248 215, 230 200, 215 190 C 190 175, 175 155, 185 135 C 195 118, 225 118, 250 135 Z" fill="url(#headerGold)"/>
+              <path d="M 250 115 C 280 95, 325 90, 355 125 C 385 160, 380 220, 350 270 C 330 305, 315 350, 305 400 C 300 410, 292 405, 290 390 C 285 330, 290 295, 265 265 C 255 255, 252 245, 252 235 C 252 215, 270 200, 285 190 C 310 175, 325 155, 315 135 C 305 118, 275 118, 250 135 Z" fill="url(#headerGold)"/>
+              <path d="M 250 160 L 268 188 L 250 216 L 232 188 Z" fill="url(#headerGold)"/>
+            </g>
+          </g>
+        </svg>
+        <div class="brand__text">
+          <span class="brand__name">Оникс Dent</span>
+          <span class="brand__tag">FIRST DENTAL GROUP</span>
+        </div>
+      </a>
+
+      <nav class="nav" id="main-nav" aria-label="Основное меню">
+        <ul class="nav__list">
+          <li><a href="#services" class="nav__link">Направления</a></li>
+          <li><a href="#comfort" class="nav__link">Без боли</a></li>
+          <li><a href="#process" class="nav__link">Протокол лечения</a></li>
+          <li><a href="#safety" class="nav__link">Стерильность</a></li>
+          <li><a href="#contacts" class="nav__link">Контакты</a></li>
+        </ul>
+        <div class="nav__mobile-actions">
+          <div class="nav__mobile-phone-wrap">
+            <span class="header__phone-label">Ежедневно 09:00–21:00</span>
+            <a href="tel:+70000000000" class="nav__mobile-phone">[ЗАПОЛНИТЬ: Телефон]</a>
+          </div>
+          <a href="#booking" class="btn btn--gold nav__mobile-cta">Записаться на консультацию</a>
+        </div>
+      </nav>
+
+      <div class="header__actions">
+        <div class="header__phone">
+          <span class="header__phone-label">Ежедневно 09:00–21:00</span>
+          <a href="tel:+70000000000" class="header__phone-number">[ЗАПОЛНИТЬ: Телефон]</a>
+        </div>
+        <a href="#booking" class="btn btn--gold">Записаться на консультацию</a>
+        <button class="burger-btn" id="burger-toggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <span class="section-tag">Премиальная стоматология</span>
+          <h1 class="hero__title">Безупречная эстетика и&nbsp;лечение зубов без&nbsp;стресса</h1>
+          <p class="hero__lead">
+            Комплексное восстановление улыбки по&nbsp;цифровому протоколу. Лечение под&nbsp;увеличением немецкой микрооптики 24х, седация и&nbsp;высочайший комфорт без&nbsp;страха перед&nbsp;врачами.
+          </p>
+          <div class="hero__actions">
+            <a href="#booking" class="btn btn--gold">Записаться на консультацию</a>
+            <a href="#services" class="btn btn--outline-dark">Изучить направления</a>
+          </div>
+
+          <div class="hero__trust">
+            <div class="trust-item">
+              <span class="trust-item__value">Micro-Optics 24x</span>
+              <span class="trust-item__label">Немецкая оптическая система экспертного класса для бережного сохранения живых тканей</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-item__value">3D Digital</span>
+              <span class="trust-item__label">Цифровой дизайн улыбки и сканирование челюсти без слепочной массы</span>
+            </div>
+            <div class="trust-item">
+              <span class="trust-item__value">Антистресс</span>
+              <span class="trust-item__label">Компьютерная анестезия и возможность лечения в медикаментозном сне</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="brand-card">
+            <div class="brand-card__glow" aria-hidden="true"></div>
+            <div class="brand-card__emblem">
+              <svg viewBox="0 0 500 500" width="100%" height="100%" aria-hidden="true">
+                <defs>
+                  <linearGradient id="heroGoldCard" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#F7E2C0"/>
+                    <stop offset="35%" stop-color="#D1B386"/>
+                    <stop offset="70%" stop-color="#F5DEBC"/>
+                    <stop offset="100%" stop-color="#9C7B4F"/>
+                  </linearGradient>
+                </defs>
+                <path d="M 250 115 C 220 95, 175 90, 145 125 C 115 160, 120 220, 150 270 C 170 305, 185 350, 195 400 C 200 410, 208 405, 210 390 C 215 330, 210 295, 235 265 C 245 255, 248 245, 248 235 C 248 215, 230 200, 215 190 C 190 175, 175 155, 185 135 C 195 118, 225 118, 250 135 Z" fill="url(#heroGoldCard)"/>
+                <path d="M 250 115 C 280 95, 325 90, 355 125 C 385 160, 380 220, 350 270 C 330 305, 315 350, 305 400 C 300 410, 292 405, 290 390 C 285 330, 290 295, 265 265 C 255 255, 252 245, 252 235 C 252 215, 270 200, 285 190 C 310 175, 325 155, 315 135 C 305 118, 275 118, 250 135 Z" fill="url(#heroGoldCard)"/>
+                <path d="M 250 160 L 268 188 L 250 216 L 232 188 Z" fill="url(#heroGoldCard)"/>
+                <circle cx="250" cy="188" r="4" fill="#0E1013"/>
+                <text x="250" y="440" text-anchor="middle" fill="#FFFFFF" font-family="'Cormorant Garamond', Georgia, serif" font-size="44" font-weight="600" letter-spacing="12">ОНИКС</text>
+              </svg>
+            </div>
+            <div class="brand-card__title">Оникс Dent</div>
+            <div class="brand-card__sub">FIRST DENTAL GROUP</div>
+            <div class="brand-card__status">
+              <span class="brand-card__status-dot"></span>
+              Прием по предварительной записи
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technology & Clinical Standards Strip -->
+    <section class="tech-strip">
+      <div class="container">
+        <div class="tech-strip__inner">
+          <div class="tech-item">
+            <svg class="tech-item__icon" viewBox="0 0 48 48" aria-hidden="true">
+              <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 3"/>
+              <path d="M 24 10 L 36 16 L 36 28 C 36 34 24 40 24 40 C 24 40 12 34 12 28 L 12 16 Z" fill="none" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M 24 18 L 24 28 M 19 23 L 29 23" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            </svg>
+            <div class="tech-item__text">
+              <span class="tech-item__title">Swiss Implantology</span>
+              <span class="tech-item__desc">Премиальный швейцарский протокол остеоинтеграции</span>
+            </div>
+          </div>
+
+          <div class="tech-item">
+            <svg class="tech-item__icon" viewBox="0 0 48 48" aria-hidden="true">
+              <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 3"/>
+              <circle cx="24" cy="24" r="11" fill="none" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="24" cy="24" r="5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+              <line x1="24" y1="6" x2="24" y2="10" stroke="currentColor" stroke-width="2"/>
+              <line x1="24" y1="38" x2="24" y2="42" stroke="currentColor" stroke-width="2"/>
+              <line x1="6" y1="24" x2="10" y2="24" stroke="currentColor" stroke-width="2"/>
+              <line x1="38" y1="24" x2="42" y2="24" stroke="currentColor" stroke-width="2"/>
+            </svg>
+            <div class="tech-item__text">
+              <span class="tech-item__title">Micro-Optics 24x</span>
+              <span class="tech-item__desc">Немецкая оптическая система экспертного класса</span>
+            </div>
+          </div>
+
+          <div class="tech-item">
+            <svg class="tech-item__icon" viewBox="0 0 48 48" aria-hidden="true">
+              <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 3"/>
+              <polygon points="24,11 35,18 35,30 24,37 13,30 13,18" fill="none" stroke="currentColor" stroke-width="1.8"/>
+              <polyline points="13,18 24,24 35,18" fill="none" stroke="currentColor" stroke-width="1.4"/>
+              <line x1="24" y1="24" x2="24" y2="37" stroke="currentColor" stroke-width="1.4"/>
+            </svg>
+            <div class="tech-item__text">
+              <span class="tech-item__title">3D Digital Design</span>
+              <span class="tech-item__desc">Бесслепочное сканирование и моделирование улыбки</span>
+            </div>
+          </div>
+
+          <div class="tech-item">
+            <svg class="tech-item__icon" viewBox="0 0 48 48" aria-hidden="true">
+              <circle cx="24" cy="24" r="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 3"/>
+              <path d="M 24 12 C 24 12 15 23 15 28 C 15 33 19 37 24 37 C 29 37 33 33 33 28 C 33 23 24 12 24 12 Z" fill="none" stroke="currentColor" stroke-width="1.8"/>
+              <path d="M 20 28 C 20 30 22 32 24 32" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <div class="tech-item__text">
+              <span class="tech-item__title">Guided Biofilm GBT</span>
+              <span class="tech-item__desc">Швейцарский протокол атравматичной гигиены</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+      <div class="container">
+        <div class="section-header section-header--center">
+          <span class="section-tag">Специализация</span>
+          <h2 class="section-title">Ключевые направления клиники</h2>
+          <p class="section-subtitle">
+            Каждое решение основано на математической точности цифровой диагностики и принципах биологической интеграции материалов.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-card__num">01</span>
+              <h3 class="service-card__title">Эстетическая реставрация и&nbsp;виниры</h3>
+              <p class="service-card__desc">
+                Керамические и рефракторные виниры ультратонкой прессовки (от 0.2 мм). Воспроизведение природной прозрачности эмали без агрессивного обтачивания.
+              </p>
+              <ul class="service-card__features">
+                <li>Цифровой дизайн улыбки (DSD) до начала работ</li>
+                <li>Примерка макета улыбки (Mock-up) в полости рта</li>
+                <li>Фиксация под микроскопом для идеального краевого прилегания</li>
+              </ul>
+            </div>
+            <a href="#booking" class="service-card__cta">Записаться на консультацию &rarr;</a>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-card__num">02</span>
+              <h3 class="service-card__title">Хирургия и&nbsp;навигационная имплантация</h3>
+              <p class="service-card__desc">
+                Установка премиальных швейцарских имплантатов по индивидуальным хирургическим шаблонам с точностью до десятых долей миллиметра.
+              </p>
+              <ul class="service-card__features">
+                <li>Премиальные швейцарские имплантационные системы</li>
+                <li>Одномоментная имплантация сразу после удаления</li>
+                <li>Костная пластика и синус-лифтинг под седацией</li>
+              </ul>
+            </div>
+            <a href="#booking" class="service-card__cta">Записаться на консультацию &rarr;</a>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-card__num">03</span>
+              <h3 class="service-card__title">Лечение каналов под&nbsp;микроскопом</h3>
+              <p class="service-card__desc">
+                Эндодонтическое лечение экспертного уровня. Спасение зубов, которые в стандартной практике рекомендуют к удалению.
+              </p>
+              <ul class="service-card__features">
+                <li>Медицинская микрооптика 24х с коаксиальным освещением каналов</li>
+                <li>Герметичная изоляция коффердамом</li>
+                <li>Ультразвуковая и медикаментозная 3D-дезинфекция</li>
+              </ul>
+            </div>
+            <a href="#booking" class="service-card__cta">Записаться на консультацию &rarr;</a>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-card__num">04</span>
+              <h3 class="service-card__title">Ортодонтия и&nbsp;элайнеры</h3>
+              <p class="service-card__desc">
+                Исправление прикуса и выравнивание зубов с помощью прозрачных незаметных капп или самолигирующих эстетических брекет-систем.
+              </p>
+              <ul class="service-card__features">
+                <li>3D-визуализация перемещения зубов перед лечением</li>
+                <li>Сохранение здоровья височно-нижнечелюстного сустава</li>
+                <li>Комфорт при приеме пищи и гигиене</li>
+              </ul>
+            </div>
+            <a href="#booking" class="service-card__cta">Записаться на консультацию &rarr;</a>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-card__num">05</span>
+              <h3 class="service-card__title">Лечение во сне (Седация)</h3>
+              <p class="service-card__desc">
+                Полное снятие тревоги и страха. Проведение длительных и сложных манипуляций за один сеанс в состоянии глубокого расслабления.
+              </p>
+              <ul class="service-card__features">
+                <li>Контроль врача анестезиолога-реаниматолога</li>
+                <li>Мониторинг жизненных показателей по стандарту BIS</li>
+                <li>Легкое пробуждение без тошноты и слабости</li>
+              </ul>
+            </div>
+            <a href="#booking" class="service-card__cta">Записаться на консультацию &rarr;</a>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="service-card">
+            <div class="service-card__top">
+              <span class="service-card__num">06</span>
+              <h3 class="service-card__title">Бережная гигиена и&nbsp;отбеливание</h3>
+              <p class="service-card__desc">
+                Профессиональный комплекс гигиены по швейцарскому протоколу Guided Biofilm Therapy с подогревом воды и мелкодисперсным порошком на основе эритритола.
+              </p>
+              <ul class="service-card__features">
+                <li>Швейцарский протокол GBT (Guided Biofilm Therapy)</li>
+                <li>Безболезненно для чувствительных шеек зубов</li>
+                <li>Кислородное отбеливание без повреждения эмали</li>
+              </ul>
+            </div>
+            <a href="#booking" class="service-card__cta">Записаться на консультацию &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Anti-Stress & Comfort Section (Deep Onyx Dark Theme) -->
+    <section class="section section--dark" id="comfort">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Протокол заботы</span>
+          <h2 class="section-title">Стоматология без боли, страха и&nbsp;напряжения</h2>
+          <p class="section-subtitle">
+            Мы создали атмосферу, в которой психологический комфорт пациента стоит на одном уровне с медицинской безупречностью.
+          </p>
+        </div>
+
+        <div class="comfort-grid">
+          <div class="comfort-card">
+            <span class="comfort-card__badge">Технология</span>
+            <h3 class="comfort-card__title">Компьютерная анестезия</h3>
+            <p class="comfort-card__desc">
+              Введение анестетика контролируется микропроцессором: давление подачи препарата ниже болевого порога тканей. Вы не чувствуете укола, а после приема нет неприятного онемения половины лица.
+            </p>
+          </div>
+
+          <div class="comfort-card">
+            <span class="comfort-card__badge">Комфорт</span>
+            <h3 class="comfort-card__title">Шумоизоляция и приватность</h3>
+            <p class="comfort-card__desc">
+              Каждый кабинет полностью автономен. Никаких пугающих звуков из соседних дверей, открытых коридоров и спешки. Во время процедур доступны наушники с активным шумоподавлением и персональный экран.
+            </p>
+          </div>
+
+          <div class="comfort-card">
+            <span class="comfort-card__badge">Сервис</span>
+            <h3 class="comfort-card__title">Персональный куратор</h3>
+            <p class="comfort-card__desc">
+              Ваш личный медицинский координатор решает любые организационные вопросы: согласует график посещений, подробно ответит на вопросы по плану лечения и всегда остается на связи в мессенджере.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process & Standards Section -->
+    <section class="section section--subtle" id="process">
+      <div class="container">
+        <div class="section-header section-header--center">
+          <span class="section-tag">Прозрачность</span>
+          <h2 class="section-title">Как строится лечение в&nbsp;Оникс Dent</h2>
+          <p class="section-subtitle">
+            Никаких неожиданных счетов и неоправданных процедур. Каждый шаг зафиксирован в плане лечения до начала вмешательства.
+          </p>
+        </div>
+
+        <div class="steps-timeline">
+          <div class="step-card">
+            <div class="step-card__number">01</div>
+            <h3 class="step-card__title">3D-диагностика</h3>
+            <p class="step-card__desc">
+              Компьютерная томография, цифровое сканирование зубных рядов и профессиональный фотопротокол для оценки прикуса и состояния суставов.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-card__number">02</div>
+            <h3 class="step-card__title">Консилиум и план</h3>
+            <p class="step-card__desc">
+              Совместный анализ снимков ортопедом, терапевтом и хирургом. Составление персонального плана с фиксированной сметой и гарантиями.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-card__number">03</div>
+            <h3 class="step-card__title">Высокоточная терапия</h3>
+            <p class="step-card__desc">
+              Бережное выполнение процедур под микроскопом с минимальным инвазивным вмешательством и защитой здоровых тканей зубов.
+            </p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-card__number">04</div>
+            <h3 class="step-card__title">Сервисное наблюдение</h3>
+            <p class="step-card__desc">
+              Выдача гарантийного паспорта на работы и регулярные профилактические осмотры для сохранения долговечности результата.
+            </p>
+          </div>
+        </div>
+
+        <!-- Sterility Highlight -->
+        <div class="sterility-box" id="safety">
+          <div class="sterility-box__text">
+            <span class="section-tag">Безопасность</span>
+            <h3>Стандарты абсолютной стерильности</h3>
+            <p>
+              Инфекционная безопасность уровня операционного блока. Инструменты проходят пятиступенчатую стерилизационную обработку в автоклавах класса B (Германия) и вскрываются исключительно в присутствии пациента.
+            </p>
+            <a href="#booking" class="btn btn--gold">Записаться на консультацию</a>
+          </div>
+
+          <ul class="sterility-checklist">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Индивидуальные крафт-пакеты с химическими индикаторами стерильности для каждого приема</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Многоступенчатая система очистки и обеззараживания воздуха HEPA-фильтрами в каждом кабинете</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Использование сертифицированных одноразовых расходных материалов премиум-сегмента</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              <span>Электронный учет стерилизационных циклов и регулярный микробиологический контроль</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Consultation & Booking Section -->
+    <section class="section" id="booking">
+      <div class="container">
+        <div class="booking-wrap">
+          <div class="booking-info">
+            <div>
+              <span class="section-tag">Персональный визит</span>
+              <h2 class="booking-info__title">Запишитесь на первичную консультацию</h2>
+              <p class="booking-info__desc">
+                Врач проведет детальный осмотр, фотопротокол и составит подробную предварительную программу лечения с учетом ваших пожеланий.
+              </p>
+              <ul class="booking-perks">
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 16 14"></polyline>
+                  </svg>
+                  <span>Длительность консультации — 60 минут без спешки</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                    <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                  </svg>
+                  <span>Наглядная 3D-демонстрация состояния полости рта</span>
+                </li>
+                <li>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                  </svg>
+                  <span>Конфиденциальность персональных и медицинских данных</span>
+                </li>
+              </ul>
+            </div>
+
+            <div style="margin-top: 32px;">
+              <p style="font-size: 0.8125rem; color: var(--text-inverse-muted);">Прямая связь с администратором:</p>
+              <a href="tel:+70000000000" style="color: var(--gold-light); font-weight: 700; font-size: 1.125rem;">[ЗАПОЛНИТЬ: Телефон]</a>
+            </div>
+          </div>
+
+          <div class="booking-form-box">
+            <form id="consultation-form" novalidate>
+              <div class="form-group">
+                <label for="client-name" class="form-label">Ваше имя *</label>
+                <input type="text" id="client-name" name="name" class="form-input" placeholder="Как к вам обращаться" required autocomplete="name">
+                <span class="form-error" id="name-error">Пожалуйста, укажите ваше имя</span>
+              </div>
+
+              <div class="form-group">
+                <label for="client-phone" class="form-label">Номер телефона *</label>
+                <input type="tel" id="client-phone" name="phone" class="form-input" placeholder="+7 (___) ___-__-__" required autocomplete="tel">
+                <span class="form-error" id="phone-error">Введите корректный номер телефона</span>
+              </div>
+
+              <div class="form-group">
+                <label for="client-service" class="form-label">Интересующее направление</label>
+                <select id="client-service" name="service" class="form-select">
+                  <option value="general">Первичная комплексная консультация</option>
+                  <option value="veneers">Эстетика и виниры</option>
+                  <option value="implants">Имплантация и хирургия</option>
+                  <option value="microscope">Лечение каналов под микроскопом</option>
+                  <option value="sedation">Лечение во сне (седация)</option>
+                  <option value="hygiene">Профессиональная гигиена и отбеливание</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="client-comment" class="form-label">Пожелания или удобное время</label>
+                <input type="text" id="client-comment" name="comment" class="form-input" placeholder="Например: в первой половине дня">
+              </div>
+
+              <button type="submit" class="btn btn--gold" style="width: 100%; margin-top: 8px;">
+                Записаться на консультацию
+              </button>
+
+              <p class="form-note">
+                Нажимая кнопку, вы соглашаетесь с условиями <a href="privacy.html" target="_blank" rel="noopener">политики конфиденциальности</a>.
+                <br>
+                <span style="opacity: 0.7;">Тестовый режим: введенные данные никуда не отправляются.</span>
+              </p>
+
+              <div class="form-status form-status--success" id="form-success-msg" role="status" aria-live="polite">
+                <strong>Благодарим вас за обращение!</strong>
+                <p>Заявка в демонстрационном режиме успешно обработана. Администратор клиники связался бы с вами для подтверждения времени приема.</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" id="contacts">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="brand" aria-label="Оникс Dent — на главную">
+            <svg class="brand__emblem" viewBox="0 0 120 120" aria-hidden="true">
+              <g transform="translate(60, 56) scale(0.24)">
+                <g transform="translate(-250, -255)">
+                  <path d="M 250 115 C 220 95, 175 90, 145 125 C 115 160, 120 220, 150 270 C 170 305, 185 350, 195 400 C 200 410, 208 405, 210 390 C 215 330, 210 295, 235 265 C 245 255, 248 245, 248 235 C 248 215, 230 200, 215 190 C 190 175, 175 155, 185 135 C 195 118, 225 118, 250 135 Z" fill="url(#headerGold)"/>
+                  <path d="M 250 115 C 280 95, 325 90, 355 125 C 385 160, 380 220, 350 270 C 330 305, 315 350, 305 400 C 300 410, 292 405, 290 390 C 285 330, 290 295, 265 265 C 255 255, 252 245, 252 235 C 252 215, 270 200, 285 190 C 310 175, 325 155, 315 135 C 305 118, 275 118, 250 135 Z" fill="url(#headerGold)"/>
+                  <path d="M 250 160 L 268 188 L 250 216 L 232 188 Z" fill="url(#headerGold)"/>
+                </g>
+              </g>
+            </svg>
+            <div class="brand__text">
+              <span class="brand__name" style="color: #FFFFFF;">Оникс Dent</span>
+              <span class="brand__tag">FIRST DENTAL GROUP</span>
+            </div>
+          </a>
+          <p class="footer__brand-desc">
+            Стоматологическая клиника премиального класса. Комплексная забота о здоровье и эстетике вашей улыбки без боли и компромиссов.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer__col-title">Навигация</h4>
+          <ul class="footer__links">
+            <li><a href="#services">Направления клиники</a></li>
+            <li><a href="#comfort">Протокол «Антистресс»</a></li>
+            <li><a href="#process">Этапы лечения</a></li>
+            <li><a href="#safety">Стандарты стерильности</a></li>
+            <li><a href="#booking">Запись на прием</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__col-title">Направления</h4>
+          <ul class="footer__links">
+            <li><a href="#services">Керамические виниры</a></li>
+            <li><a href="#services">Швейцарская имплантация</a></li>
+            <li><a href="#services">Лечение под микроскопом</a></li>
+            <li><a href="#services">Лечение во сне (седация)</a></li>
+            <li><a href="#services">Швейцарская гигиена GBT</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__col-title">Контакты</h4>
+          <div class="footer__contact-item">
+            <strong>Адрес клиники:</strong>
+            [ЗАПОЛНИТЬ: Город, улица, дом]
+          </div>
+          <div class="footer__contact-item">
+            <strong>Телефон:</strong>
+            <a href="tel:+70000000000" style="color: var(--gold-light);">[ЗАПОЛНИТЬ: Телефон клиники]</a>
+          </div>
+          <div class="footer__contact-item">
+            <strong>График работы:</strong>
+            Пн–Вс: 09:00 — 21:00 (по записи)
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div>
+          © 2026 «Оникс Dent». First Dental Group. Все права защищены.
+          <br>
+          <span style="opacity: 0.6;">Медицинская лицензия № [ЗАПОЛНИТЬ: Номер лицензии]</span>
+        </div>
+        <div class="footer__legal-links">
+          <a href="privacy.html">Политика конфиденциальности</a>
+          <a href="404.html">Карта сайта</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

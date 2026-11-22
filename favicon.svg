@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="favGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7E2C0"/>
+      <stop offset="35%" stop-color="#D1B386"/>
+      <stop offset="70%" stop-color="#F5DEBC"/>
+      <stop offset="100%" stop-color="#9C7B4F"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="26" fill="#0E1013"/>
+  <g transform="translate(60, 58) scale(0.24)">
+    <g transform="translate(-250, -260)">
+      <!-- Left Crown Cusp -->
+      <path d="M 250 115 C 220 95, 175 90, 145 125 C 115 160, 120 220, 150 270 C 170 305, 185 350, 195 400 C 200 410, 208 405, 210 390 C 215 330, 210 295, 235 265 C 245 255, 248 245, 248 235 C 248 215, 230 200, 215 190 C 190 175, 175 155, 185 135 C 195 118, 225 118, 250 135 Z" fill="url(#favGold)"/>
+      <!-- Right Crown Cusp -->
+      <path d="M 250 115 C 280 95, 325 90, 355 125 C 385 160, 380 220, 350 270 C 330 305, 315 350, 305 400 C 300 410, 292 405, 290 390 C 285 330, 290 295, 265 265 C 255 255, 252 245, 252 235 C 252 215, 270 200, 285 190 C 310 175, 325 155, 315 135 C 305 118, 275 118, 250 135 Z" fill="url(#favGold)"/>
+      <!-- Onyx Diamond -->
+      <path d="M 250 160 L 268 188 L 250 216 L 232 188 Z" fill="url(#favGold)"/>
+    </g>
+  </g>
+</svg>
